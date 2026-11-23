@@ -14,5 +14,7 @@ sass:
 nav:
   - name: "Home"
     link: "/"
-
+  - name: "CV"
+    link: "/cv.pdf"
+    
 exclude: ["contact.md", "resume.pdf", "sherlock.jpg", "bits-logo.png"]
