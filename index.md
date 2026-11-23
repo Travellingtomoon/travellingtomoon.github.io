@@ -19,7 +19,7 @@ My research interests include geometric measure theory and minimal surfaces. Som
 
 ## More info
 
-I am also interested in photography, although I really do not have enough times for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285).
+I am also interested in basketball and photography, although I really do not have enough time for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285).
 
 ## Contact
 
