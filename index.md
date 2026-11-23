@@ -11,9 +11,10 @@ layout: default
 
 ## Education
 - **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
-- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.<br>
-&emsp;&emsp;Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
-- **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024. Conducted Undergraduate Thesis. 
+- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.
+  - {: style="list-style-type: '– ';" } Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
+- **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024.
+  - {: style="list-style-type: '– ';" } Conducted Undergraduate Thesis. 
 
 ## Research interest
 My research interests include geometric measure theory and minimal surfaces. Sometimes I am also interested in problems in other areas that are related to geometric methods.
@@ -27,14 +28,16 @@ My research interests include geometric measure theory and minimal surfaces. Som
 ## Seminars and talks
 ### Seminars 
 Only seminars in which I served as the main speaker are listed below.
-- **Topics in Geometry**. At University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025). Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
-- **Topics in Analysis**. At Northwestern Polytechnical University, 2023. Topic: real analysis.
+- **Seminar on Geometry**. At University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025).
+  - {: style="list-style-type: '– ';" } Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
+- **Seminar on Analysis**. At Northwestern Polytechnical University, 2023.
+  - {: style="list-style-type: '– ';" } Topic: real analysis.
 
 ### Talks
 - **An introduction to Almgren-Pitts min-max theory**. Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
 
 ## More info
-I am also interested in basketball and photography, although I really do not have enough time for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285). Due to the upload limitation policy, there is only few photographs in my PhotoVogue homepage, but 
+I am also interested in basketball and photography, although I really do not have enough time for both. My [PhotoVogue Homepage](https://www.vogue.com/photovogue/photographers/419285) has a small selection of my photographs due to the upload policy. I occasionally post new photos there.
 
 ## Contact
 School of Mathematical Sciences, University of Chinese Academy of Sciences.<br>
