@@ -4,7 +4,10 @@ layout: default
 
 ## About me
 
-Hi! I am Hangyue Zhu (朱杭越), currently a Ph. D. candidate at the University of Chinese Academy of Sciences, under the supervision of [Prof. Xiaoxiang Jiao (焦晓祥)](https://people.ucas.ac.cn/~xxjiao). 
+<div class="portrait-intro">
+  <p>Hi! I am Hangyue Zhu, currently a PhD candidate at the University of Chinese Academy of Sciences, under the supervision of [Prof. Xiaoxiang Jiao (焦晓祥)](https://people.ucas.ac.cn/~xxjiao). </p>
+  {% include portrait-stack.html %}
+</div>
 
 ## Education
 - **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
