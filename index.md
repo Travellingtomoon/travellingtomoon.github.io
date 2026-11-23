@@ -36,6 +36,10 @@ Only seminars in which I served as the main speaker are listed below.
 ### Talks
 - **An introduction to Almgren-Pitts min-max theory**. At Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
 
+## Links
+- [ResearchGate Homepage](https://www.researchgate.net/profile/Hangyue-Zhu-2?ev=hdr_xprf)
+- [Google Scholar](https://scholar.google.com/citations?user=pA8Qq1oAAAAJ&hl=zh-CN)
+
 ## More info
 I am also interested in basketball and photography, although I really do not have enough time for both. My [PhotoVogue Homepage](https://www.vogue.com/photovogue/photographers/419285) has a small selection of my photographs due to the upload policy. I occasionally post new photos there.
 
@@ -43,3 +47,5 @@ I am also interested in basketball and photography, although I really do not hav
 School of Mathematical Sciences, University of Chinese Academy of Sciences.<br>
 19A Yuquan Road, Beijing, 100049, China.<br>
 zhuhangyue24@mails.ucas.ac.cn
+
+*Last updated {{ site.time | date: "%B %-d, %Y" }}.*
