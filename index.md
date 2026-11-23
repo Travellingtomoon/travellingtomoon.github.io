@@ -11,7 +11,7 @@ layout: default
 
 ## Education
 - **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
-- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.<pr>
+- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.<br>
 &emsp;&emsp;Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
 - **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024. Conducted Undergraduate Thesis. 
 
@@ -34,9 +34,9 @@ Only seminars in which I served as the main speaker are listed below.
 - **An introduction to Almgren-Pitts min-max theory**. Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
 
 ## More info
-I am also interested in basketball and photography, although I really do not have enough time for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285).
+I am also interested in basketball and photography, although I really do not have enough time for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285). Due to the upload limitation policy, there is only few photographs in my PhotoVogue homepage, but 
 
 ## Contact
-School of Mathematical Sciences, University of Chinese Academy of Sciences.<pr>
-19A Yuquan Road, Beijing, 100049, China.<pr>
+School of Mathematical Sciences, University of Chinese Academy of Sciences.<br>
+19A Yuquan Road, Beijing, 100049, China.<br>
 zhuhangyue24@mails.ucas.ac.cn
