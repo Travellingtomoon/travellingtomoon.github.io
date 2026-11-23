@@ -1,0 +1,268 @@
+{%- assign portrait_extensions = '.jpg,.jpeg,.png,.webp,.gif,.avif' | split: ',' -%}
+{%- assign portrait_photos = '' | split: ',' -%}
+{%- for file in site.static_files -%}
+  {%- assign prefix = file.path | slice: 0, 11 -%}
+  {%- assign extension = file.extname | downcase -%}
+  {%- if prefix == '/portraits/' and portrait_extensions contains extension -%}
+    {%- assign portrait_photos = portrait_photos | push: file -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign portrait_photos = portrait_photos | sort: 'path' -%}
+{%- assign portrait_total = portrait_photos.size | plus: 1 -%}
+{% capture portrait_ascii %}{% raw %}
+
+
+                                 `'`
+                        ,=o##@@@@##%x~=*+;:.-'
+                     .o@@@@@@@@@@@@@@@@@@@@@x`
+                    #@@@@@@@@@@@@#@@@@@@@@@@@#%;
+                  `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*x
+                 ~@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o
+                ~@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##+
+               `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###;
+               x@@@@@@@@@@@@#%%%##%%%##@@@@@@@######=
+              ~@@@@@@@@@##o=;;~~~~~~~;~~;++=x#@@@@@##'
+              #@@@@@@#o*x=+~:::,--,:::,-..-,,+@@@#@@@~
+             ~@@@@@@%x==+;~:,,,,,,,,::--..----x@@@@@@#`
+             +@@@@@#*=;;;;~::,,,,,,,,:,.'..-..;%@@#@@@`
+             #@@@@@%=+;;;;~~~::,:,,,::--'....'~%@@##@%
+             #@@@@@%+;+;;~~~~~:::,,:~:-----...,o#@@#@'
+             ;@@@@@x+;;~~~~~:::,-,,:,-.`''''.-.~#@##@`
+             '@@@@#=+;++;~~~:-,-.--,.''.:~:~~-..%@#@*
+              ;@@@#+;=*x=;;=x+:-----:;+=++::;,..%@@%
+              =@@@#;;;~~~;;,:+=+;-'.:~=x+:.'''.-#@@%
+              =@@@%;~;+o**@+.*=*x-`'~o*@@~xx,...o##,
+              'o%*x;~;++;~~~+x=*+.`.,=*x=..-----,++
+               :o%x;~~::~~~+++==;.``.':;:,....-'~=`
+               `x#o;;~~:,,~~~++=+-```''-:~:-.--'=+
+                ~%*+;;~~:::~;===;,.'..,,::,-.--':.
+               ``=ox+;;~~::~+==+~-'``-;;::.----,,
+               `'-=*=+;;~~:~+;~+:.'`.':;~,-----.
+               `'-:+x=+;;~~~;+=x=,'-;,.-:,----'
+                '-~;=x+;;;;;;;+=;:.`''''-,----`
+                `-~;=x=+;;;;;~~;,--'.-,:~,---`
+                `.~+=x*=+~~+xoooo=+=+=~,;:,-`
+                 `~==%@xx+;;;+==++~-'``.,,-`
+                  ,==@@xo*=++;~:,:,...---'~*
+                  `:=@@****x=+=+~:,..'..- =#
+                   `'%@o*****==+;~:,--..' ##  `
+                  `-'~%xx*x*o***;:::,-.'`~#*` ```
+              `'.-,~-'o=+=xx***x;-.'.-'`~*%*`  .,'`
+         ``.-,:~~~::- ==++;~;;~::,-..'';**#o   .~'-.
+     ``'.-:~~~:~:::::`-x==;:,,::,,--.-=*x*%~  `'~`---``'''`
+  ```.:-,::::,:~:::::- +x==~,--,,~::~=xxxo+`  ``:`.,:-`,,-.'.`
+'`.,'-:',,,::,;:,:::::` ;x=+,..,:;;;=xxxo+,.  `','-,:,`-,,'',,-`
+- .-'.'`,,-:,:~,,::::,` `;+;:-,~;+++===*+,-`  `'..-,::`',:'',,:' ``
+:``.-'``:,---~:,,::::,'` `~~::~+++++++=;,:.   `.'.,,:~.',:'`-,:'`''`
+{% endraw %}{% endcapture %}
+
+<style>
+  .portrait-intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .portrait-intro > p {
+    flex: 1 1 16rem;
+    min-width: 0;
+    margin-top: 0;
+  }
+
+  .portrait-stack {
+    flex: 0 0 auto;
+    width: 168px;
+    max-width: calc(100% - 20px);
+    margin: 4px 12px 0 auto;
+  }
+
+  .portrait-stack__frame {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .portrait-stack__frame::before,
+  .portrait-stack__frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border: 1px solid #d9d7d1;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+
+  .portrait-stack__frame::before {
+    background: #eeece6;
+    transform: translate(7px, 5px) rotate(3deg);
+  }
+
+  .portrait-stack__frame::after {
+    background: #f8f7f3;
+    transform: translate(3px, 4px) rotate(-2deg);
+  }
+
+  .portrait-stack__track {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 4px;
+    background: #faf9f6;
+    box-shadow: 0 0 0 1px #d9d7d1;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .portrait-stack__track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .portrait-stack__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    height: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .portrait-stack__slide--ascii {
+    display: grid;
+    place-items: center;
+  }
+
+  .portrait-stack .portrait-stack__slide--ascii > pre {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 4px;
+    border: 0;
+    background: transparent;
+    color: #171615;
+    font: 3.8px/3.55px Menlo, "Courier New", monospace;
+    font-variant-ligatures: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    white-space: pre;
+    overflow: auto;
+  }
+
+  .portrait-stack .portrait-stack__slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .portrait-stack__controls:not([hidden]) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .portrait-stack__controls > button {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 0;
+    border: 1px solid #d9d7d1;
+    border-radius: 4px;
+    background: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .portrait-stack__controls > button:disabled {
+    opacity: .35;
+    cursor: default;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .portrait-stack__track {
+      scroll-behavior: auto;
+    }
+  }
+</style>
+
+<div id="portrait-stack" class="portrait-stack" role="region" aria-label="Portrait gallery">
+  <div class="portrait-stack__frame">
+    <div id="portrait-stack-track" class="portrait-stack__track"{% if portrait_total > 1 %} tabindex="0"{% endif %}>
+      <div class="portrait-stack__slide portrait-stack__slide--ascii">
+        <pre role="img" aria-label="ASCII portrait">{{ portrait_ascii | escape }}</pre>
+      </div>
+      {% for photo in portrait_photos %}
+        {%- assign path_parts = photo.path | split: '/' -%}
+        {%- capture photo_url -%}
+          {%- for part in path_parts -%}
+            {%- unless part == empty -%}/{{ part | url_encode | replace: '+', '%20' }}{%- endunless -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+        <div class="portrait-stack__slide">
+          <img src="{{ site.baseurl | escape }}{{ photo_url | escape }}" alt="Photo {{ forloop.index }}"{% unless forloop.first %} loading="lazy"{% endunless %} decoding="async">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if portrait_total > 1 %}
+  <div class="portrait-stack__controls" hidden>
+    <button type="button" data-step="-1" aria-label="Previous photo" aria-controls="portrait-stack-track">&lsaquo;</button>
+    <span role="status">1 / {{ portrait_total }}</span>
+    <button type="button" data-step="1" aria-label="Next photo" aria-controls="portrait-stack-track">&rsaquo;</button>
+  </div>
+  {% endif %}
+</div>
+
+{% if portrait_total > 1 %}
+<script>
+  (() => {
+    const gallery = document.getElementById('portrait-stack');
+    const track = document.getElementById('portrait-stack-track');
+    const controls = gallery.querySelector('.portrait-stack__controls');
+    const previous = controls.querySelector('[data-step="-1"]');
+    const next = controls.querySelector('[data-step="1"]');
+    const status = controls.querySelector('[role="status"]');
+    const lastIndex = track.children.length - 1;
+
+    function currentIndex() {
+      return Math.max(0, Math.min(lastIndex, Math.round(track.scrollLeft / Math.max(1, track.clientWidth))));
+    }
+
+    function updateControls() {
+      const index = currentIndex();
+      previous.disabled = index === 0;
+      next.disabled = index === lastIndex;
+      const label = `${index + 1} / ${lastIndex + 1}`;
+      if (status.textContent !== label) status.textContent = label;
+    }
+
+    function move(step) {
+      const index = Math.max(0, Math.min(lastIndex, currentIndex() + step));
+      track.scrollTo({ left: index * track.clientWidth });
+    }
+
+    previous.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    track.addEventListener('scroll', updateControls, { passive: true });
+    track.addEventListener('keydown', (event) => {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      move(event.key === 'ArrowLeft' ? -1 : 1);
+    });
+
+    updateControls();
+    controls.hidden = false;
+  })();
+</script>
+{% endif %}
