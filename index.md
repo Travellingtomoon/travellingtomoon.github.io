@@ -12,14 +12,14 @@ My research interests include geometric measure theory and minimal surfaces. Som
 
 ## Papers
 
-- Hongbin Cui, Xiaoxiang Jiao and Hangyue Zhu. **Real Determinantal and Segre Varieties: Stability and Area Minimization**. Preprint, 2026. [arXiv](https://arxiv.org/pdf/2611.23980)
-- Xiaoxiang Jiao and Hangyue Zhu. **Interlacing of the Volume and Half-Volume Spectra**. Preprint, 2026. [arXiv](https://arxiv.org/pdf/2611.07801)
-- Xiaoxiang Jiao and Hangyue Zhu. **Barycentric Cuts at Maximal Depth and a Five-Cut Theorem**. Preprint, 2026. [arXiv](https://arxiv.org/pdf/2608.01721)
-- Xiaoxiang Jiao, Qinhan Zhao and Hangyue Zhu. **Local Variational Properties of Non-degenerate Free Boundary Minimal Hypersurfaces**. Preprint, 2026. [arXiv](https://arxiv.org/pdf/2605.25585)
+- Hongbin Cui, Xiaoxiang Jiao and Hangyue Zhu. **Real Determinantal and Segre Varieties: Stability and Area Minimization**. Preprint, 2026. [arXiv:2611.23980](https://arxiv.org/pdf/2611.23980)
+- Xiaoxiang Jiao and Hangyue Zhu. **Interlacing of the Volume and Half-Volume Spectra**. Preprint, 2026. [arXiv:2611.07801](https://arxiv.org/pdf/2611.07801)
+- Xiaoxiang Jiao and Hangyue Zhu. **Barycentric Cuts at Maximal Depth and a Five-Cut Theorem**. Preprint, 2026. [arXiv:2608.01721](https://arxiv.org/pdf/2608.01721)
+- Xiaoxiang Jiao, Qinhan Zhao and Hangyue Zhu. **Local Variational Properties of Non-degenerate Free Boundary Minimal Hypersurfaces**. Preprint, 2026. [arXiv:2605.25585](https://arxiv.org/pdf/2605.25585)
 
 ## More info
 
-I am also interested in photography, although I really do not have enough times for this. See for my selected photos at [PhotoVogue](https://www.vogue.com/photovogue/photographers/419285).
+I am also interested in photography, although I really do not have enough times for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285).
 
 ## Contact
 
