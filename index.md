@@ -34,7 +34,7 @@ Only seminars in which I served as the main speaker are listed below.
   - {: style="list-style-type: '– ';" } Topic: real analysis.
 
 ### Talks
-- **An introduction to Almgren-Pitts min-max theory**. Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
+- **An introduction to Almgren-Pitts min-max theory**. At Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
 
 ## More info
 I am also interested in basketball and photography, although I really do not have enough time for both. My [PhotoVogue Homepage](https://www.vogue.com/photovogue/photographers/419285) has a small selection of my photographs due to the upload policy. I occasionally post new photos there.
