@@ -17,6 +17,16 @@ My research interests include geometric measure theory and minimal surfaces. Som
 - Xiaoxiang Jiao and Hangyue Zhu. **Barycentric Cuts at Maximal Depth and a Five-Cut Theorem**. Preprint, 2026. [arXiv:2608.01721](https://arxiv.org/pdf/2608.01721)
 - Xiaoxiang Jiao, Qinhan Zhao and Hangyue Zhu. **Local Variational Properties of Non-degenerate Free Boundary Minimal Hypersurfaces**. Preprint, 2026. [arXiv:2605.25585](https://arxiv.org/pdf/2605.25585)
 
+## Seminars and talks
+
+# Seminars 
+Only seminars in which I served as the main speaker are listed below.
+- **Topics in Geometry**. University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025). Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
+- **Topics in Analysis**. Northwestern Polytechnical University, 2023. Topic: real analysis.
+
+# Talks
+- **An introduction to Almgren-Pitts min-max theory**. Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
+
 ## More info
 
 I am also interested in basketball and photography, although I really do not have enough time for this. See for my selected photos at [PhotoVogueHomepage](https://www.vogue.com/photovogue/photographers/419285).
