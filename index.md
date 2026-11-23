@@ -39,6 +39,7 @@ Only seminars in which I served as the main speaker are listed below.
 ## Links
 - [ResearchGate Homepage](https://www.researchgate.net/profile/Hangyue-Zhu-2?ev=hdr_xprf)
 - [Google Scholar](https://scholar.google.com/citations?user=pA8Qq1oAAAAJ&hl=zh-CN)
+- [LinkedIn](www.linkedin.com/in/hangyue-zhu-b10b52307)
 
 ## More info
 I am also interested in basketball and photography, although I really do not have enough time for both. My [PhotoVogue Homepage](https://www.vogue.com/photovogue/photographers/419285) has a small selection of my photographs due to the upload policy. I occasionally post new photos there.
