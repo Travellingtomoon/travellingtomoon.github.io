@@ -5,7 +5,7 @@ layout: default
 ## About me
 
 <div class="portrait-intro">
-  <p>Hi! I am Hangyue Zhu, currently a PhD candidate at the University of Chinese Academy of Sciences, under the supervision of <a href="https://people.ucas.ac.cn/~xxjiao">Prof. Xiaoxiang Jiao (焦晓祥)</a>.</p>
+  <p>Hi! I am Hangyue Zhu (朱杭越), currently a PhD candidate at the University of Chinese Academy of Sciences, under the supervision of <a href="https://people.ucas.ac.cn/~xxjiao">Prof. Xiaoxiang Jiao (焦晓祥)</a>.</p>
   {% include portrait-stack.html %}
 </div>
 
