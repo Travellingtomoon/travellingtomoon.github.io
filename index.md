@@ -4,7 +4,12 @@ layout: default
 
 ## About me
 
-Hi! I am Hangyue Zhu (朱杭越), currently a PhD candidate at the University of Chinese Academy of Sciences, under the supervision of [Prof. Xiaoxiang Jiao (焦晓祥)](https://people.ucas.ac.cn/~xxjiao). 
+Hi! I am Hangyue Zhu (朱杭越), currently a Ph. D. candidate at the University of Chinese Academy of Sciences, under the supervision of [Prof. Xiaoxiang Jiao (焦晓祥)](https://people.ucas.ac.cn/~xxjiao). 
+
+## Education
+- **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
+- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024. Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
+- **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024. Conducted Undergraduate Thesis. 
 
 ## Research interest
 
@@ -21,8 +26,8 @@ My research interests include geometric measure theory and minimal surfaces. Som
 
 ### Seminars 
 Only seminars in which I served as the main speaker are listed below.
-- **Topics in Geometry**. University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025). Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
-- **Topics in Analysis**. Northwestern Polytechnical University, 2023. Topic: real analysis.
+- **Topics in Geometry**. At University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025). Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
+- **Topics in Analysis**. At Northwestern Polytechnical University, 2023. Topic: real analysis.
 
 ### Talks
 - **An introduction to Almgren-Pitts min-max theory**. Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
