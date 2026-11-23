@@ -8,7 +8,8 @@ Hi! I am Hangyue Zhu (朱杭越), currently a Ph. D. candidate at the University
 
 ## Education
 - **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
-- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024. Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
+- **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.
+Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
 - **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024. Conducted Undergraduate Thesis. 
 
 ## Research interest
