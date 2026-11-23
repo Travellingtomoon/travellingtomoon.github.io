@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-Hi! I am Hangyue Zhu, currently a PhD candidate at the University of Chinese Academy of Sciences. 
+Hi! I am Hangyue Zhu (朱杭越), currently a PhD candidate at the University of Chinese Academy of Sciences, under the supervision of [Prof. Xiaoxiang Jiao (焦晓祥)](https://people.ucas.ac.cn/~xxjiao). 
 
 ## Research interest
 
