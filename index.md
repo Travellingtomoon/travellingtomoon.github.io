@@ -12,9 +12,9 @@ layout: default
 ## Education
 - **Ph. D. candidate in pure mathematics**. School of Mathematical Sciences, University of Chinese Academy of Sciences, 2024-current. Supervisor: Prof. Xiaoxiang Jiao.
 - **B. Sc. in mathematics and applied mathematics**. School of Mathematics and Statistics, Northwestern Polytechnical University. 2020-2024.
-  - {: style="list-style-type: '– ';" } Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
+  - Undergraduate Thesis: *Digital Light Processing of Triply Periodic Minimal Surface-Structured beta-TCP Scaffolds*. Advisors: Prof. Dongshuang Hou from NPU and Prof. Shuo Yin from TCD.
 - **Visiting Research Student**. Department of Mechanic, Manufacturing and Biomedical Engineering, School of Engineering, Trinity College Dublin. 2024.
-  - {: style="list-style-type: '– ';" } Conducted Undergraduate Thesis. 
+  - Conducted Undergraduate Thesis. 
 
 ## Research interest
 My research interests include geometric measure theory and minimal surfaces. Sometimes I am also interested in problems in other areas that are related to geometric methods.
