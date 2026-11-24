@@ -29,9 +29,9 @@ My research interests include geometric measure theory and minimal surfaces. Som
 ### Seminars 
 Only seminars in which I served as the main speaker are listed below.
 - **Seminar on Geometry**. At University of Chinese Academy of Sciences, 2024-current (Main speaker since 2025).
-  - {: style="list-style-type: '– ';" } Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
+  - Topics: calibrated geometries, geometric measure theory, min-max theory, etc.
 - **Seminar on Analysis**. At Northwestern Polytechnical University, 2023.
-  - {: style="list-style-type: '– ';" } Topic: real analysis.
+  - Topic: real analysis.
 
 ### Talks
 - **An introduction to Almgren-Pitts min-max theory**. At Northwestern Polytechnical University, Nov. 21, 2026. [Slides](1121slides.pdf); [Poster](1121poster.pdf).
